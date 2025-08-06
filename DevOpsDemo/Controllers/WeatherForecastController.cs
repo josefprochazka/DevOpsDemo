@@ -19,7 +19,7 @@ namespace DevOpsDemo.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get() // change
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
