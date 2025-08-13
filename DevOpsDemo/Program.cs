@@ -26,4 +26,4 @@ app.Run();
 
 // trigger CI
 
-asdf
+public partial class Program { }
