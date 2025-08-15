@@ -25,3 +25,7 @@ app.MapControllers();
 app.Run();
 
 // test change
+
+// trigger CI
+
+public partial class Program { }
